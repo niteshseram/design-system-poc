@@ -1,5 +1,6 @@
 {
   "name": "@auzmor/design-tokens",
+  "private": false,
   "version": "0.0.0",
   "description": "Tokens for Auzmor",
   "main": "brand/auzmor/tokens.css",
@@ -16,5 +17,5 @@
     "style-dictionary": "^3.8.0",
     "token-transformer": "^0.0.33"
   },
-  "gitHead": "1c7a52820c17936f8a3d2801cea1a7fe0f32e870"
+  "gitHead": "bcebb3cac62a2cdce61497a379eb25e2001ee98b"
 }
