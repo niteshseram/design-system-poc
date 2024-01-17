@@ -12,7 +12,8 @@
     "build:tokens": "yarn workspace @auzmor-test/design-tokens build",
     "lerna:publish": "lerna publish from-package",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build:react": "yarn workspace @auzmor-test/ui build"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.9",
