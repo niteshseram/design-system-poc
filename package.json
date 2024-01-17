@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "build:tokens": "yarn workspace @auzmor/design-tokens build",
+    "build:tokens": "yarn workspace @auzmor-test/design-tokens build",
     "lerna:publish": "lerna publish from-package"
   },
   "dependencies": {},
