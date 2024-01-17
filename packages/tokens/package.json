@@ -1,9 +1,11 @@
 {
   "name": "@auzmor/design-tokens",
-  "private": false,
   "version": "0.0.0",
   "description": "Tokens for Auzmor",
   "main": "brand/auzmor/tokens.css",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "brand"
   ],
@@ -17,5 +19,5 @@
     "style-dictionary": "^3.8.0",
     "token-transformer": "^0.0.33"
   },
-  "gitHead": "bcebb3cac62a2cdce61497a379eb25e2001ee98b"
+  "gitHead": "e6bea7de918b7c8e7e4c4dd9044918db089c6052"
 }
