@@ -10,10 +10,26 @@
   "scripts": {
     "build": "lerna run build",
     "build:tokens": "yarn workspace @auzmor-test/design-tokens build",
-    "lerna:publish": "lerna publish from-package"
+    "lerna:publish": "lerna publish from-package",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
-  "dependencies": {},
   "devDependencies": {
-    "lerna": "^8.0.2"
+    "@storybook/addon-essentials": "^7.6.9",
+    "@storybook/addon-interactions": "^7.6.9",
+    "@storybook/addon-links": "^7.6.9",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.9",
+    "@storybook/react": "^7.6.9",
+    "@storybook/react-vite": "^7.6.9",
+    "@storybook/test": "^7.6.9",
+    "lerna": "^8.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.9"
+  },
+  "dependencies": {
+    "@auzmor-test/design-tokens": "^0.0.0"
   }
 }
