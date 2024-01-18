@@ -1,12 +1,9 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/**/*"
-  ],
+  "workspaces": ["packages/**"],
   "scripts": {
     "publish": "lerna run tsc && lerna publish"
-
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
