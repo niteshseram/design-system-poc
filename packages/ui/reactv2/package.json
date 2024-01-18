@@ -22,5 +22,10 @@
   },
   "bugs": {
     "url": "https://github.com/niteshseram/design-system-poc/issues"
+  },
+  "gitHead": "70789d59b84494f47111d5ef2edf1bed73cf3922",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
