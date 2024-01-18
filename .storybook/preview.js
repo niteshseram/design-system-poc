@@ -1,4 +1,4 @@
-import "@auzmor-test/design-tokens/brand/auzmor/tokens.css";
+import "@shubh-test/design-tokens/brand/auzmor/tokens.css";
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

@@ -1,5 +1,5 @@
 {
-  "name": "@auzmor-test/uiv2",
+  "name": "@shubh-test/uiv2",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Shubhdeep Chhabra <chhabrashubhdeep@gmail.com>",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/niteshseram/design-system-poc/issues"
   },
-  "gitHead": "1e800e9adbf932fa33bd7966d77bae7f9eab0d16",
+  "gitHead": "0da06271d0f8837d6667b16d7f4b18e9aa7fa6cc",
   "private": false,
   "publishConfig": {
     "access": "public"
