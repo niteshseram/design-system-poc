@@ -21,7 +21,7 @@ const react_1 = require("react");
 const styled_components_1 = __importDefault(require("styled-components"));
 exports.Button = (0, react_1.forwardRef)((_a, ref) => {
     var { children, type = 'button', className } = _a, rest = __rest(_a, ["children", "type", "className"]);
-    return ((0, jsx_runtime_1.jsx)(StyledButton, Object.assign({}, rest, { ref: ref, className: (0, clsx_1.clsx)(className), children: children })));
+    return ((0, jsx_runtime_1.jsxs)(StyledButton, Object.assign({}, rest, { ref: ref, className: (0, clsx_1.clsx)(className), children: [children, "aaa"] })));
 });
 exports.Button.displayName = 'Button';
 const StyledButton = styled_components_1.default.button `
