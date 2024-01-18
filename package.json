@@ -5,8 +5,8 @@
     "access": "public"
   },
   "workspaces": [
-    "packages/*",
-    "packages/ui/*"
+    "packages/tokens/",
+    "packages/ui/"
   ],
   "scripts": {
     "build": "lerna run build",
