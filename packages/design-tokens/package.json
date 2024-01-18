@@ -1,11 +1,11 @@
 {
-  "name": "@shubh-test/uiv2",
-  "version": "1.0.0",
+  "name": "@shubh-test/design-tokens",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Shubhdeep Chhabra <chhabrashubhdeep@gmail.com>",
   "homepage": "https://github.com/niteshseram/design-system-poc#readme",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "lib/design-tokens.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,14 +18,9 @@
     "url": "git+https://github.com/niteshseram/design-system-poc.git"
   },
   "scripts": {
-    "test": "node ./__tests__/reactv2.test.js"
+    "test": "node ./__tests__/design-tokens.test.js"
   },
   "bugs": {
     "url": "https://github.com/niteshseram/design-system-poc/issues"
-  },
-  "gitHead": "0da06271d0f8837d6667b16d7f4b18e9aa7fa6cc",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
   }
 }

@@ -1,11 +1,11 @@
-# `reactv2`
+# `ui`
 
 > TODO: description
 
 ## Usage
 
 ```
-const reactv2 = require('reactv2');
+const ui = require('ui');
 
 // TODO: DEMONSTRATE API
 ```

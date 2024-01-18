@@ -1,12 +1,4 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "useNx": true,
-  "npmClient": "yarn",
-  "version": "independent",
-  "packages": ["packages/*", "packages/ui/*"],
-  "command": {
-    "publish": {
-      "ignoreChanges": ["**/stories/*", "**/build/*", "**/playground/*"]
-    }
-  }
+  "version": "0.0.0"
 }
