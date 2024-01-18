@@ -3,15 +3,13 @@ import { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const Button = forwardRef(
+export const Button = forwardRef(
   ({ children, type = 'button', className, ...rest }, ref) => (
     <StyledButton {...rest} ref={ref} type={type} className={clsx(className)}>
       {children}
     </StyledButton>
   ),
 );
-
-export default Button;
 
 Button.displayName = 'Button';
 
@@ -33,5 +31,6 @@ const StyledButton = styled.button`
   border: none;
   color: var(--colorsBaseWhite);
   font: var(--textBaseFontMedium);
+  padding: 5px 10px;
   cursor: pointer;
 `;
