@@ -14,6 +14,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.8",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@tokens-studio/sd-transforms": "^0.12.2",
+    "ramda": "^0.29.1",
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
   }
 }

@@ -10,7 +10,6 @@ export const Button = forwardRef(
   ),
 );
 
-
 Button.displayName = 'Button';
 
 const StyledButton = styled.button`

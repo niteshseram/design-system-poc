@@ -1,0 +1,22 @@
+{
+  "name": "@shubh-test/design-tokens",
+  "version": "0.0.0",
+  "description": "Tokens for Auzmor",
+  "main": "brand/auzmor/tokens.css",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "brand"
+  ],
+  "scripts": {
+    "tsc": "npm run clean && node ./scripts/build.mjs",
+    "clean": "rimraf brand"
+  },
+  "peerDependencies": {
+    "@tokens-studio/sd-transforms": "^0.12.2",
+    "ramda": "^0.29.1",
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
+  }
+}
