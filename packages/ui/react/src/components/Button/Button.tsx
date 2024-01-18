@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const Button = forwardRef(
   ({ children, type = 'button', className, ...rest }: {children: React.ReactNode, type: string, className: string}, ref) => (
     <StyledButton {...rest} ref={ref} className={clsx(className)}>
-      {children}aaa
+      {children}
     </StyledButton>
   ),
 );
