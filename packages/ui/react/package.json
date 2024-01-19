@@ -22,7 +22,8 @@
     "url": "git+https://github.com/niteshseram/design-system-poc.git"
   },
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "test": "node ./__tests__/ui.test.js"
   },
   "bugs": {
