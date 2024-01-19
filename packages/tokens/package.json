@@ -2,7 +2,7 @@
   "name": "@shubh-test/design-tokens",
   "version": "0.1.0",
   "description": "Tokens for Auzmor",
-  "main": "brand/auzmor/tokens.css",
+  "main": "brand/learn/tokens.css",
   "publishConfig": {
     "access": "public"
   },

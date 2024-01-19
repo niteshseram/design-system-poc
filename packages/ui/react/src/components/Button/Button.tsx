@@ -28,5 +28,6 @@ const StyledButton = styled.button<{ variant: string }>`
   border: ${({ variant }) => (variant === 'outline' ? '1px solid #000' : 'none')};
   color: ${({ variant }) => (variant !== 'outline' ? 'var(--colorsBaseWhite)' : 'none')};
   font: var(--textBaseFontMedium);
+  padding: 5px 10px;
   cursor: pointer;
 `;
