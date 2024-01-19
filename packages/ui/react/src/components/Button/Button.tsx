@@ -21,7 +21,8 @@ export const Button = forwardRef(
 Button.displayName = 'Button';
 
 const StyledButton = styled.button<{ buttontype: string }>`
-  background-color: var(--colorsPrimary950);
+  background-color: ${({ buttontype }) =>
+    buttontype !== 'outline' ? `var(--colorsPrimary950)` : 'none'};
   border-radius: var(--aldo2);
   font: var(--textBaseFontMedium);
   border: ${({ buttontype }) => (buttontype === 'outline' ? '1px solid #000' : 'none')};
