@@ -25,8 +25,10 @@ const StyledButton = styled.button<{ variant: string }>`
     variant !== 'outline' ? `var(--colorsPrimary950)` : 'none'};
   border-radius: var(--aldo2);
   font: var(--textBaseFontMedium);
-  border: ${({ variant }) => (variant === 'outline' ? '1px solid #000' : 'none')};
-  color: ${({ variant }) => (variant !== 'outline' ? 'var(--colorsBaseWhite)' : 'none')};
+  border: ${({ variant }) =>
+    variant === 'outline' ? '1px solid var(--colorsPrimary950)' : 'none'};
+  color: ${({ variant }) =>
+    variant !== 'outline' ? 'var(--colorsBaseWhite)' : 'var(--colorsPrimary950)'};
   font: var(--textBaseFontMedium);
   padding: 5px 10px;
   cursor: pointer;
