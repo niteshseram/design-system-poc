@@ -6,13 +6,13 @@ export const Button = forwardRef(
   (
     {
       children,
-      type = 'outline',
+      variant = 'outline',
       className,
       ...rest
-    }: { children: React.ReactNode; type: string; className: string },
+    }: { children: React.ReactNode; variant: string; className: string },
     ref
   ) => (
-    <StyledButton buttontype={type} ref={ref} className={clsx(className)} {...rest}>
+    <StyledButton variant={variant} ref={ref} className={clsx(className)} {...rest}>
       {children}
     </StyledButton>
   )
@@ -20,12 +20,12 @@ export const Button = forwardRef(
 
 Button.displayName = 'Button';
 
-const StyledButton = styled.button<{ buttontype: string }>`
-  background-color: ${({ buttontype }) =>
-    buttontype !== 'outline' ? `var(--colorsPrimary950)` : 'none'};
+const StyledButton = styled.button<{ variant: string }>`
+  background-color: ${({ variant }) =>
+    variant !== 'outline' ? `var(--colorsPrimary950)` : 'none'};
   border-radius: var(--aldo2);
   font: var(--textBaseFontMedium);
-  border: ${({ buttontype }) => (buttontype === 'outline' ? '1px solid #000' : 'none')};
+  border: ${({ variant }) => (variant === 'outline' ? '1px solid #000' : 'none')};
   color: var(--colorsBaseWhite);
   font: var(--textBaseFontMedium);
   cursor: pointer;
