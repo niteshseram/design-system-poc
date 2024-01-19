@@ -12,7 +12,7 @@ export const Button = forwardRef(
     }: { children: React.ReactNode; variant: string; className: string },
     ref
   ) => (
-    <StyledButton variant={variant} ref={ref} className={clsx(className)} {...rest}>
+    <StyledButton variant={variant} {...rest} ref={ref} className={clsx(className)}>
       {children}
     </StyledButton>
   )
@@ -26,7 +26,7 @@ const StyledButton = styled.button<{ variant: string }>`
   border-radius: var(--aldo2);
   font: var(--textBaseFontMedium);
   border: ${({ variant }) => (variant === 'outline' ? '1px solid #000' : 'none')};
-  color: var(--colorsBaseWhite);
+  color: ${({ variant }) => (variant !== 'outline' ? 'var(--colorsBaseWhite)' : 'none')};
   font: var(--textBaseFontMedium);
   cursor: pointer;
 `;
